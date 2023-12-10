@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+}
+.container
+{
+     display: flex;
+    /* height: 500px;
+    align-items: center;   */
+    background-color: blue;
+    flex-direction: row;
+    
+   
+}
+
+.container div{
+   padding: 1px;
+    background-color: aqua;
+    border: 2px solid red;
+    
+}
+
+#one
+{
+      flex: 1;
+    
+}
+#two
+{
+   flex: 1;
+  
+}
+#three
+{
+    flex: 1;
+    
+
+}
+
+
